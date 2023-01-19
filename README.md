@@ -6,7 +6,7 @@
 
 This is a Jekyll site template based on the [Multiverse](https://html5up.net/multiverse) template by [HTML5 UP](https://html5up.net)
 
-Demo: https://joaomlneto.github.io/jekyll-multiverse-template/
+Demo: https://moha7108.github.io/computational-photography/
 
 Each of the images displayed in the website is its own separate *post*:
 - Metadata (image title and caption) goes in the [`_images`](_images) folder
