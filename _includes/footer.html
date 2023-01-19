@@ -13,8 +13,23 @@
     <div>
       <section>
         <h2>Get in touch</h2>
-        <form action="http://formspree.io/{{ site.email }}" method="POST"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form>
-
+        <form action="http://formspree.io/{{ site.email }}" method="post" action="#">
+          <div class="fields">
+            <div class="field half">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="field half">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="field">
+              <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Send" class="primary" /></li>
+            <li><input type="reset" value="Reset" /></li>
+          </ul>
+        </form>
       </section>
     </div>
   </div>
