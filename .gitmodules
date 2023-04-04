@@ -1,0 +1,3 @@
+[submodule "ecse544/MODNet"]
+	path = ecse544/MODNet
+	url = git@github.com:ZHKKKe/MODNet.git
